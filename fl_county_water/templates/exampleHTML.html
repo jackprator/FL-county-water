@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Collier County</title>
+
+	 <style type="text/css">
+   body { background: #e1c699 !important; }
+	</style>
+</head>
+<body>
+
+
+<div class ="container">
+  <div class="row header">
+    <div class="col text-center">
+
+
+			<h1>Collier County</h1>
+		</div>
+			<!-- NOTE the pattern for pointing to a file inside the static folder -->
+			<div class="row">
+    		<div class="col-sm-6 first-column">
+					<img class="img-fluid img-thumbnail" src="images/collier.png" alt="collier county map">
+				</div>
+				<div class="col-sm-6 second-column">
+					<p>
+            <b>Collier County</b> has <b>36</b> private wells tested for contaminants. <b>0</b> contain nitrogen levels above the EPA limit of 10 milligrams per liter. <b>0</b>% of the county's wells exceed healthy standards set by the EPA.
+          </p>
+          <p>
+            The county's 	nitrogen contaminants have been trending <b>down</b> over the past 10 years. The county's drinking water tested at <b>.03 </b> nitrogen parts per million: <b>below</b) the EPA limit of 1 ppm.
+          </p>
+          <p>
+            <b>In 2019, Collier County was voted to have the best drinking water in Southwest Florida by a panel of judges at the Florida Section of the American Water Works Association.</b>
+					</p>
+          <p>
+            More information about <b>Collier County</b>'s water monitoring department can be found <a href="https://collier.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html">here</a>.
+          </p>
+					<!-- NOTE the way to link to a route: Use the function name -->
+					<p><a href="{{ url_for('index') }}">Return to the map</a> to select a different county.</p>
+				</div>
+			</div>
+		</div>
+  </div>
+
+</body>
+</html>

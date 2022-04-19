@@ -1,0 +1,38 @@
+{% block content %}
+
+<div class ="container">
+  <div class="row header">
+    <div class="col text-center">
+
+
+			<h1>{{ fl_county['Title'] }}</h1>
+		</div>
+			<!-- NOTE the pattern for pointing to a file inside the static folder -->
+			<div class="row">
+    		<div class="col-sm-6 first-column">
+					<img class="img-fluid img-thumbnail" src="images/collier.png" alt="collier county map">
+				</div>
+				<div class="col-sm-6 second-column">
+					<p>
+						{{ fl_county['county'] }} has {{ fl_county['tot_wells'] }} private wells tested for contaminants. {{ fl_county['tot_over'] }} contain nitrogen levels above the EPA limit of 10 milligrams per liter. {{ fl_county['pct_bad'] }}% of the county's wells exceed healthy standards set by the EPA.
+          </p>
+          <p>
+            The county's 	nitrogen contaminants have been trending {{ fl_county['trend'] }} over the past 10 years. The county's drinking water tested at {{ fl_county['n_ppm'] }} nitrogen parts per million:
+
+						<b>below</b>
+
+						the EPA limit of 1 ppm.
+          </p>
+          <p>
+            {{ fl_county['facts'] }}
+					</p>
+          <p>
+            More information about {{ fl_county['county'] }}'s water monitoring department can be found <a href="{{ fl_county['url'] }}">here</a>.
+          </p>
+					<!-- NOTE the way to link to a route: Use the function name -->
+					<p><a href="{{ url_for('index') }}">Return to the map</a> to select a different county.</p>
+				</div>
+			</div>
+		</div>
+  </div>
+{% endblock %}

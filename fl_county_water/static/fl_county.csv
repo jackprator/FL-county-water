@@ -1,0 +1,68 @@
+id,county,tot_wells,tot_over,pct_bad,n_ppm,trend,facts,url
+1,Alachua County,340,17,5,0.037,none,,https://alachua.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+2,Baker County,41,0,0,not reported,none,,https://baker.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+3,Bay County,60,0,0,0.075,none,,https://bay.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+4,Bradford County,62,1,1.612903226,0.015,none,,https://bradford.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+5,Brevard County,343,0,0,0.031,none,,https://brevard.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+6,Broward County,153,0,0,0.03,none,,https://broward.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+7,Calhoun County,38,0,0,0.043,up,,https://calhoun.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+8,Charlotte County,41,0,0,0.04,none,,https://charlotte.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+9,Citrus County,83,0,0,not reported,none,,https://citrus.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+10,Clay County,56,0,0,0.012,none,,https://clay.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+11,Collier County,36,0,0,0.03,down,"In 2019, Collier County was voted to have the best drinking water in Southwest Florida by a panel of judges at the Florida Section of the American Water Works Association.",https://collier.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+12,Columbia County,63,2,3.174603175,not detected,none,,https://columbia.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+13,Miami-Dade County,493,6,1.21703854,0.06,none,,https://miamidade.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+14,DeSoto County,163,2,1.226993865,0.013,none,,https://desoto.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+15,Dixie County,58,1,1.724137931,not reported,none,,https://dixie.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+16,Duval County,3099,25,0.806711843,0.015,none,,https://duval.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+17,Escambia County,55,2,3.636363636,0.39,none,Pensacola was ranked as the city having the worst drinking water in the country by NBC News.,https://escambia.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+18,Flagler County,41,0,0,0.007,none,,https://flagler.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+19,Franklin County,32,0,0,not detected,none,,https://franklin.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+20,Gadsden County,45,0,0,0.025,none,,https://gadsden.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+21,Gilchrist County,73,7,9.589041096,not reported,up,,https://gilchrist.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+22,Glades County,28,0,0,not reported,none,,https://glades.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+23,Gulf County,29,0,0,not reported,none,,https://gulf.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+24,Hamilton County,53,1,1.886792453,0.016,none,,https://hamilton.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+25,Hardee County,235,72,30.63829787,not reported,down,,https://hardee.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+26,Hendry County,121,0,0,0.007,none,,https://hendry.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+27,Hernando County,204,11,5.392156863,0.36,none,,https://hernando.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+28,Highlands County,3728,981,26.31437768,not reported,none,,https://highlands.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+29,Hillsborough County,2158,89,4.124189064,not detected,none,,https://hillborough.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+30,Holmes County,40,0,0,0.01,none,,https://holmes.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+31,Indian River County,187,0,0,not reported,none,,https://indian.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+32,Jackson County,4503,30,0.666222518,not reported,up,,https://jackson.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+33,Jefferson County,37,0,0,0.039,none,,https://jefferson.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+34,Lafayette County,102,43,42.15686275,not reported,none,,https://lafayette.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+35,Lake County,5338,291,5.451479955,<0.05 ,none,,https://lake.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+36,Lee County,89,0,0,0.014,none,,https://lee.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+37,Leon County,133,5,3.759398496,0.103,none,,https://leon.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+38,Levy County,74,6,8.108108108,not reported,none,,https://levy.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+39,Liberty County,38,0,0,not reported,none,,https://liberty.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+40,Madison County,124,2,1.612903226,0.045,none,,https://madison.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+41,Manatee County,117,0,0,,up,,https://manatee.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+42,Marion County,857,31,3.617269545,,none,,https://marion.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+43,Martin County,559,0,0,0.034,none,,https://martin.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+44,Monroe County,4,0,0,0.345,none,,https://monroe.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+45,Nassau County,49,1,2.040816327,0.003,none,,https://nassau.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+46,Okaloosa County,84,0,0,0.004,none,,https://okaloosa.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+47,Okeechobee County,37,0,0,0.006,none,,https://okeechobee.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+48,Orange County,3702,128,3.457590492,0.002,none,,https://orange.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+49,Osceola County,108,0,0,0.13,none,,https://osceola.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+50,Palm Beach County,310,0,0,not reported,none,,https://palmbeach.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+51,Pasco County,169,8,4.733727811,0.009,none,,https://pasco.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+52,Pinellas County,149,1,0.67114094,0.001,none,,https://pinellas.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+53,Polk County,7880,440,5.583756345,0.19,none,,https://polk.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+54,Putnam County,70,2,2.857142857,not reported,none,,https://putnam.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+55,St. Johns County,105,1,0.952380952,0.39,none,,https://santarosa.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+56,St. Lucie County,420,0,0,0.061,none,,https://sarasota.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+57,Santa Rosa County,516,3,0.581395349,0.024,down,,https://seminole.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+58,Sarasota County,46,0,0,0.1,none,,https://stjohns.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+59,Seminole County,106,1,0.943396226,0.015,none,,https://stlucie.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+60,Sumter County,100,4,4,0.13,none,,https://sumter.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+61,Suwannee County,334,36,10.77844311,not reported,up in some areas and down in others,,https://suwannee.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+62,Taylor County,97,0,0,0.008,none,,https://taylor.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+63,Union County,34,2,5.882352941,not reported,none,,https://union.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+64,Volusia County,340,0,0,not reported,none,,https://volusia.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+65,Wakulla County,56,1,1.785714286,not reported ,down,,https://wakulla.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+66,Walton County,94,0,0,not reported,none,,https://walton.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html
+67,Washington County,31,0,0,not reported,none,,https://washington.floridahealth.gov/programs-and-services/environmental-health/drinking-water/index.html

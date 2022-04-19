@@ -1,0 +1,23 @@
+{% block content %}
+
+<div class ="container">
+  <div class="row">
+    <div class="col">
+      <h1>Percent of wells per county with nitrate levels over the EPA limit</h1>
+
+      <!-- pairs is a list that must be sent here by a route function-->
+     <div class ="row">
+       <div class="col-5 mx-auto">
+         <h2>Click on your county to see more</h2>
+         <ul class="list-group">
+           {% for pair in pairs %}
+           <li class="list-group-item list-group-item-action"><a href="{{ url_for( 'detail', num=pair[0] ) }}">{{ pair[1] }}</a></li>
+           {% endfor %}
+         </ul>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

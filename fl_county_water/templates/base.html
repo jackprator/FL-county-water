@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>{{ the_title }}</title>
+
+	<!-- note the special href for files in the Flask "static" folder -->
+	 <!--<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"> -->
+	 <style type="text/css">
+   body { background: #e1c699 !important; }
+	</style>
+</head>
+<body>
+
+<div id="container">
+
+  <!-- Jinja directives: page contents will go between them -->
+  {% block content %}
+  {% endblock %}
+
+</div>
+
+</body>
+</html>
