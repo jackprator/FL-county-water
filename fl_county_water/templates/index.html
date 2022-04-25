@@ -1,23 +1,98 @@
+{% extends 'base.html' %}
 {% block content %}
 
 <div class ="container">
   <div class="row">
     <div class="col">
-      <h1>Percent of wells per county with nitrate levels over the EPA limit</h1>
-
-      <!-- pairs is a list that must be sent here by a route function-->
+      <div class ="text-center">
+      <h1>How Does Your County's Well Water Stack Up?</h1>
+      <h3>By Jack Prator<h3>
+      <h4>Private Florida wells with nitrate (NO3-1) levels over EPA limit, by county</h4>
+      <div class="embed-responsive">
+        <iframe id='map' class="embed-responsive-item" width="1500" height="650" frameborder="0" scrolling="no" src="//plotly.com/~jackprator/1.embed"></iframe>
+      </div>
+      </div>
      <div class ="row">
        <div class="col-5 mx-auto">
-         <h2>Click on your county to see more</h2>
-         <ul class="list-group">
-           {% for pair in pairs %}
-           <li class="list-group-item list-group-item-action"><a href="{{ url_for( 'detail', num=pair[0] ) }}">{{ pair[1] }}</a></li>
-           {% endfor %}
-         </ul>
+         <h5>Select your county below to learn more about water quality</h5>
+         <form>
+         <select class="form-select form-select-lg mb-3" onchange="location = this.value;">
+
+           <option value=county/1> Alachua County</option>
+           <option value=county/2> Baker County</option>
+           <option value=county/3> Bay County</option>
+           <option value=county/4> Bradford County</option>
+           <option value=county/5> Brevard County</option>
+           <option value=county/6> Broward County</option>
+           <option value=county/7> Calhoun County</option>
+           <option value=county/8> Charlotte County</option>
+           <option value=county/9> Citrus County</option>
+           <option value=county/10> Clay County</option>
+           <option value=county/11> Collier County</option>
+           <option value=county/12> Columbia County</option>
+           <option value=county/13> Miami-Dade County</option>
+           <option value=county/14> DeSoto County</option>
+           <option value=county/15> Dixie County</option>
+           <option value=county/16> Duval County</option>
+           <option value=county/17> Escambia County</option>
+           <option value=county/18> Flagler County</option>
+           <option value=county/19> Franklin County</option>
+           <option value=county/20> Gadsden County</option>
+           <option value=county/21> Gilchrist County</option>
+           <option value=county/22> Glades County</option>
+           <option value=county/23> Gulf County</option>
+           <option value=county/24> Hamilton County</option>
+           <option value=county/25> Hardee County</option>
+           <option value=county/26> Hendry County</option>
+           <option value=county/27> Hernando County</option>
+           <option value=county/28> Highlands County</option>
+           <option value=county/29> Hillsborough County</option>
+           <option value=county/30> Holmes County</option>
+           <option value=county/31> Indian River County</option>
+           <option value=county/32> Jackson County</option>
+           <option value=county/33> Jefferson County</option>
+           <option value=county/34> Lafayette County</option>
+           <option value=county/35> Lake County</option>
+           <option value=county/36> Lee County</option>
+           <option value=county/37> Leon County</option>
+           <option value=county/38> Levy County</option>
+           <option value=county/39> Liberty County</option>
+           <option value=county/40> Madison County</option>
+           <option value=county/41> Manatee County</option>
+           <option value=county/42> Marion County</option>
+           <option value=county/43> Martin County</option>
+           <option value=county/44> Monroe County</option>
+           <option value=county/45> Nassau County</option>
+           <option value=county/46> Okaloosa County</option>
+           <option value=county/47> Okeechobee County</option>
+           <option value=county/48> Orange County</option>
+           <option value=county/49> Osceola County</option>
+           <option value=county/50> Palm Beach County</option>
+           <option value=county/51> Pasco County</option>
+           <option value=county/52> Pinellas County</option>
+           <option value=county/53> Polk County</option>
+           <option value=county/54> Putnam County</option>
+           <option value=county/55> St. Johns County</option>
+           <option value=county/56> St. Lucie County</option>
+           <option value=county/57> Santa Rosa County</option>
+           <option value=county/58> Sarasota County</option>
+           <option value=county/59> Seminole County</option>
+           <option value=county/60> Sumter County</option>
+           <option value=county/61> Suwannee County</option>
+           <option value=county/62> Taylor County</option>
+           <option value=county/63> Union County</option>
+           <option value=county/64> Volusia County</option>
+           <option value=county/65> Wakulla County</option>
+           <option value=county/66> Walton County</option>
+           <option value=county/67> Washington County</option>
+
+         </select>
+         </form>
        </div>
       </div>
     </div>
   </div>
 </div>
+<script>window.dispatchEvent(new Event('resize'));</script>
 
 {% endblock %}

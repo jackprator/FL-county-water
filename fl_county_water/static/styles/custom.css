@@ -1,0 +1,33 @@
+html {
+    font-size: 100%;
+}
+body {
+    font-family: 'Orpheus Pro Regular', 'Canto Pen Light', 'Canto Brush Light', 'Times New Roman', serif;
+    font-size: 24px;
+    background: #76a5ef;
+    color: #333;
+    padding: 25px;
+    padding-bottom: 120px;
+}
+h1, h2 {
+    font-family: 'Proxima Nova Regular', 'Expressway Book', 'Arial', sans-serif;
+}
+
+footer {
+  font-size: 18px;
+  background: #76a5ef;
+}
+
+a {
+  color: #38761d;
+}
+a:visited {
+  color: #d2f092;
+}
+
+@media screen and (max-width: 1280px) {
+  #map {
+    Width: 100%!important;
+  }
+}
+​

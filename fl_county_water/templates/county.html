@@ -1,3 +1,4 @@
+{% extends 'base.html' %}
 {% block content %}
 
 <div class ="container">
@@ -5,29 +6,52 @@
     <div class="col text-center">
 
 
-			<h1>{{ fl_county['Title'] }}</h1>
+			<h1>{{ a.county }}</h1>
 		</div>
 			<!-- NOTE the pattern for pointing to a file inside the static folder -->
 			<div class="row">
     		<div class="col-sm-6 first-column">
-					<img class="img-fluid img-thumbnail" src="images/collier.png" alt="collier county map">
+					<img class="img-fluid img-thumbnail" src="{{ url_for('static', filename='images/' + a.photo) }}">
 				</div>
 				<div class="col-sm-6 second-column">
 					<p>
-						{{ fl_county['county'] }} has {{ fl_county['tot_wells'] }} private wells tested for contaminants. {{ fl_county['tot_over'] }} contain nitrogen levels above the EPA limit of 10 milligrams per liter. {{ fl_county['pct_bad'] }}% of the county's wells exceed healthy standards set by the EPA.
+						{{ a.county }} has <b>{{ a.tot_wells }}</b> private wells tested for contaminants. <b>{{ a.tot_over }}</b> contain nitrogen levels above the EPA limit of 10 milligrams per liter. <b>{{ a.pct_bad }}%</b> of the county's wells exceed healthy standards set by the EPA.
           </p>
           <p>
-            The county's 	nitrogen contaminants have been trending {{ fl_county['trend'] }} over the past 10 years. The county's drinking water tested at {{ fl_county['n_ppm'] }} nitrogen parts per million:
+						{% if a.trend == 'none' %}
+						The county's 	nitrogen contaminants have <b>not changed significantly</b> over past 10 years.
+						{% else %}
+            The county's 	nitrogen contaminants have been trending <b>{{ a.trend }}</b> over the past 10 years.
+						{% endif %}
 
-						<b>below</b>
+						{% if a.n_ppm == 'not reported' %}
+						The county's drinking water was not reported for nitrogen.
+						{% elif a.n_ppm == 'not detected' %}
+						Nitrogen in the county's drinking water was under detectable levels.
+						{% else %}
+						The county's drinking water tested at <b>{{ a.n_ppm }}</b> nitrogen parts per million:
+						{% endif %}
 
-						the EPA limit of 1 ppm.
+
+
+						{% if a.n_ppm == 'not reported'%}
+
+						{% elif a.n_ppm == 'not detected' %}
+
+						{% else %}
+						<b>below</b> the EPA limit of 1 ppm.
+						{% endif %}
+
           </p>
           <p>
-            {{ fl_county['facts'] }}
+						{% if a.facts == None%}
+
+						{% else %}
+            {{ a.facts }}
+						{% endif %}
 					</p>
           <p>
-            More information about {{ fl_county['county'] }}'s water monitoring department can be found <a href="{{ fl_county['url'] }}">here</a>.
+            More information about {{ a.county }}'s water monitoring department can be found <a href="{{ a.url }}">here</a>.
           </p>
 					<!-- NOTE the way to link to a route: Use the function name -->
 					<p><a href="{{ url_for('index') }}">Return to the map</a> to select a different county.</p>
